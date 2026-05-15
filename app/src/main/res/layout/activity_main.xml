@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_home"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Kick Counter Button -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardKickCounter"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/white">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/title_kick_counter"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#E91E63" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Check-up Button -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardCheckup"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/white">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/title_checkup"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#2196F3" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Nutrition Button -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardNutrition"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/white">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/title_nutrition"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#4CAF50" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Baby Growth Button -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardBabyGrowth"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/white">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/title_baby_growth"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FF9800" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Danger Signs Button -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardDangerSigns"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#FFE0E0">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/title_danger_signs"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#D32F2F" />
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

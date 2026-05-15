@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Matru-Sneh Health</string>
+    <string name="title_home">Home / ಮನೆ</string>
+    <string name="title_kick_counter">Kick Counter / ಮಗುವಿನ ಒದೆತ ಎಣಿಕೆ</string>
+    <string name="title_checkup">Check-up / ತಪಾಸಣೆ</string>
+    <string name="title_nutrition">Nutrition / ಪೌಷ್ಟಿಕಾಂಶ</string>
+    <string name="title_danger_signs">Danger Signs / ಅಪಾಯದ ಲಕ್ಷಣಗಳು</string>
+    <string name="title_baby_growth">Baby Growth / ಮಗುವಿನ ಬೆಳವಣಿಗೆ</string>
+
+    <!-- Splash Screen -->
+    <string name="welcome_message">Welcome to Matru-Sneh / ಮಾತೃ-ಸ್ನೇಹಕ್ಕೆ ಸುಸ್ವಾಗತ</string>
+
+    <!-- Kick Counter -->
+    <string name="tap_to_log_kick">TAP HERE / ಇಲ್ಲಿ ಒತ್ತಿರಿ</string>
+    <string name="today_kicks">Today\'s Kicks: / ಇಂದಿನ ಒದೆತಗಳು:</string>
+    <string name="recent_kicks">Recent Kicks / ಇತ್ತೀಚಿನ ಒದೆತಗಳು</string>
+
+    <!-- Check-up -->
+    <string name="select_date">Select Date / ದಿನಾಂಕವನ್ನು ಆರಿಸಿ</string>
+    <string name="next_checkup_in">Next Check-up in / ಮುಂದಿನ ತಪಾಸಣೆ ಇನ್ನು</string>
+    <string name="days">Days / ದಿನಗಳು</string>
+    <string name="no_appointment">No appointment scheduled / ಯಾವುದೇ ತಪಾಸಣೆ ನಿಗದಿಯಾಗಿಲ್ಲ</string>
+
+    <!-- Nutrition -->
+    <string name="daily_checklist">Daily Checklist / ದಿನನಿತ್ಯದ ಪಟ್ಟಿ</string>
+    <string name="ragi">Ragi / ರಾಗಿ</string>
+    <string name="greens">Greens / ಸೊಪ್ಪು</string>
+    <string name="pulses">Pulses / ಬೇಳೆಕಾಳುಗಳು</string>
+    <string name="milk">Milk / ಹಾಲು</string>
+    <string name="fruits">Fruits / ಹಣ್ಣುಗಳು</string>
+
+    <!-- Danger Signs -->
+    <string name="heavy_swelling">Heavy Swelling / ಅತಿ ಹೆಚ್ಚು ಊತ</string>
+    <string name="bleeding">Bleeding / ರಕ್ತಸ್ರಾವ</string>
+    <string name="severe_headache">Severe Headache / ತೀವ್ರ ತಲೆನೋವು</string>
+    <string name="no_movement">No Baby Movement / ಮಗುವಿನ ಚಲನೆ ಇಲ್ಲ</string>
+    <string name="emergency_warning">WARNING: Seek medical help immediately! / ಎಚ್ಚರಿಕೆ: ಕೂಡಲೇ ವೈದ್ಯಕೀಯ ಸಹಾಯ ಪಡೆಯಿರಿ!</string>
+    <string name="call_emergency">Call Hospital / ಆಸ್ಪತ್ರೆಗೆ ಕರೆ ಮಾಡಿ</string>
+
+    <!-- Baby Growth -->
+    <string name="week">Week / ವಾರ</string>
+    <string name="week_format">Week %1$d / ವಾರ %1$d</string>
+    <string name="previous">Previous / ಹಿಂದಿನ</string>
+    <string name="next">Next / ಮುಂದಿನ</string>
+
+    <!-- Notifications -->
+    <string name="reminder_channel_name">Reminders</string>
+    <string name="checkup_reminder_title">Appointment Tomorrow</string>
+    <string name="checkup_reminder_text">You have a health check-up tomorrow. Don\'t forget!</string>
+    <string name="nutrition_reminder_title">Daily Nutrition</string>
+    <string name="nutrition_reminder_text">Have you completed your healthy meal checklist today?</string>
+</resources>
